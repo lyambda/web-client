@@ -1,4 +1,4 @@
-/* Подключаю шрифт из Google Fonts */
+/* *Подключаю шрифт из Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,800;1,400&display=swap');
 
 body {
@@ -6,12 +6,23 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-/* Стили родительского блога wrapper */
+/* *Стили родительского блога wrapper */
 .wrapper {
-    /* Помещаю блок по центру страницы */
+    /* *Помещаю блок по центру страницы */
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+/* *Стили для главного заголовка */
+.wrapper #header-text {
+    /* Стиили для текста */
+    font-size: 55px;
+    color: rgb(236, 255, 255);
+    letter-spacing: 3px;
+
+    /* *Отступ под главным заголовком */
+    margin-bottom: 30px;
 }
