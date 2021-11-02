@@ -6,6 +6,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
+/* Визуальная настройка заголовка */
 .header {
     margin: 0 auto;
     width: 200px;
@@ -23,3 +24,34 @@ body {
     letter-spacing: 3px;
     font-size: 50px;
 }
+
+/* Визуальная настройка кнопок на главной */
+.button-block {
+    position: absolute;
+    /* Центрирование */
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.button-text {
+    position: relative;
+    display: inline-block;
+    /* Визуальное оформление кнопки */
+    padding: 20px 35px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 28px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #073763;
+    border-radius: 10px;
+    transition: 0.1s ease;
+}
+
+.button-text:hover {
+    background-color: #041f38;
+}
+
