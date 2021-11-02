@@ -6,7 +6,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-/* *Стили родительского блога wrapper */
+/* *Стили родительского блока wrapper */
 .wrapper {
     /* *Помещаю блок по центру страницы */
     position: absolute;
@@ -18,11 +18,19 @@ body {
 
 /* *Стили для главного заголовка */
 .wrapper #header-text {
-    /* Стиили для текста */
-    font-size: 55px;
-    color: rgb(236, 255, 255);
+    /* *Стиили для текста */
+    font-size: 60px;
+    color: rgb(204, 204, 204);
     letter-spacing: 3px;
 
     /* *Отступ под главным заголовком */
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/* *Стили для краткого описания */
+.descriprtion p {
+    /* *Стиили для текста */
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+    letter-spacing: 3px;
 }
