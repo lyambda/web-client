@@ -4,6 +4,7 @@
 body {
     background-color: rgb(39, 39, 39);
     font-family: 'JetBrains Mono', monospace;
+    user-select: none;
 }
 
 /* *Стили родительского блока wrapper */
@@ -33,4 +34,36 @@ body {
     font-size: 25px;
     color: rgb(92, 92, 92);
     letter-spacing: 3px;
+}
+
+/* *Стили для кнопки */
+.button {
+    /* *Задаю размеры кнопки и отступ сверху */
+    padding: 20px 35px;
+    margin-top: 30px;
+
+    /* *Позиционирование */
+    position: relative;
+    display: inline-block;
+
+    /* *Цвет для кнопки и скругляю края */
+    background-color: #0458a7;
+    border-radius: 10px;
+
+    /* *Добавляю плавности анимации и по всему блоки кнопки меняю курсор */
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+/* *Анимция кнопки */
+.button:hover {
+    background-color: #043b6e;
+}
+
+/* *Стили для текста внутри кнопки (стрелки) */
+.button a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
 }
