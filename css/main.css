@@ -67,3 +67,25 @@ body {
     font-weight: bold;
     color: #000;
 }
+
+/* *Стили для поля ввода почты и кнопки */
+.form input {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #0458a7;
+    color: rgb(204, 204, 204);
+}
+
+/* *Стили для кнопки  */
+.form #button {
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+/* *Анимация кнопки */
+.form #button:hover {
+    background-color: #043b6e;
+}
